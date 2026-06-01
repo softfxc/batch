@@ -5,5 +5,5 @@ Script PowerShell
 3. Pestaña Acciones: Iniciar un programa powershell.exe con los siguientes argumentos:
       -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\\%USERPROFILE%\AppData\Roaming\Script.ps1"
 4. En la pestaña General marcar Ejecutar con los privilegios más altos si quieres que copie incluso archivos de unidades protegidas, y en 'Configurar para' elige Windows 10.
-5. 
+
 El copiado del script de PowerShell en la parte de USB éste no depende del formato de la unidad ya que se basa en un evento de Windows que se activa cuando detecta dispositivos removibles.
